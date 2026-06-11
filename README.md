@@ -1,207 +1,322 @@
-# EntreLaços — Vitrine Digital de Presentes
+<div align="center">
 
-Projeto estático criado para divulgar kits especiais de Dia dos Namorados com foco em visual, responsividade, integração com WhatsApp e acabamento técnico para publicação.
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&text=EntreLa%C3%A7os&fontSize=62&fontColor=FFF7FB&animation=twinkling&fontAlignY=38&desc=Vitrine%20Digital%20de%20Presentes%20%7C%20Cat%C3%A1logo%20Visual%20%2B%20WhatsApp&descAlignY=62&descSize=18&color=0:180617,25:4A0D2E,55:8A2BE2,78:C23B87,100:FF8FBD" />
 
-## Objetivo
+<br>
 
-Criar uma vitrine digital simples, bonita e direta, onde a pessoa escolhe um kit, vê as maiores informações e inicia o atendimento pelo WhatsApp com uma mensagem pronta.
+![Status](https://img.shields.io/badge/STATUS-PUBLICADO-8A2BE2?style=for-the-badge)
+![Projeto](https://img.shields.io/badge/PROJETO-VITRINE%20DIGITAL-C23B87?style=for-the-badge)
+![Deploy](https://img.shields.io/badge/DEPLOY-VERCEL-000000?style=for-the-badge\&logo=vercel)
+![Stack](https://img.shields.io/badge/STACK-HTML%20%7C%20CSS%20%7C%20JS-FF8FBD?style=for-the-badge)
 
-## Funcionalidades
+<br>
 
-- Vitrine de produtos com filtros: **Todos**, **Para ela**, **Para ele**, **Até R$ 100** e **Premium**.
-- Cards com preço promocional no formato **De/Por**.
-- Modal com maiores informações: fixação, acorde, combinação do kit e indicação.
-- Botões de WhatsApp com mensagem automática por produto.
-- Fundo com transição lenta de cores românticas.
-- Corações/símbolos ao mover o mouse e clicar.
-- Efeito de shimmer nos cards.
-- Ripple effect nos botões.
-- Efeito 3D nos cards com fallback.
-- Layout responsivo para celular, tablet e desktop.
-- Aviso de vitrine independente no footer.
+### 💝 Uma vitrine digital bonita, responsiva e direta para divulgar kits presenteáveis com atendimento pelo WhatsApp.
 
-## Stack
+<br>
 
-- HTML5
-- CSS3
-- JavaScript puro
-- JSON para cadastro dos produtos
+🔗 **Acesse o projeto publicado:**
 
-## Recursos externos gratuitos
+### https://entrelacos-vitrine.vercel.app
 
-- **Google Fonts**: Sora e Cormorant Garamond.
-- **VanillaTilt** via jsDelivr CDN para efeito 3D nos cards.
+</div>
 
-Se o CDN do VanillaTilt não carregar, o site continua funcionando normalmente, apenas sem o efeito 3D.
+---
 
-## Estrutura
+## ✨ Sobre o projeto
+
+O **EntreLaços** é uma **vitrine digital de presentes** criada para apresentar kits de forma mais bonita, organizada e prática.
+
+O projeto foi desenvolvido para ajudar um **colega de classe que revende produtos de marcas conhecidas**, oferecendo uma página simples, visualmente atrativa e fácil de usar, onde os clientes podem visualizar os kits, conferir detalhes e iniciar o atendimento diretamente pelo WhatsApp.
+
+A ideia principal foi transformar uma divulgação comum, que poderia ficar espalhada em imagens e mensagens, em uma experiência mais profissional, elegante e centralizada.
+
+---
+
+## 💡 Problema que resolve
+
+Divulgar produtos apenas por mensagens, fotos soltas ou listas pode dificultar a escolha do cliente. Muitas vezes a pessoa precisa perguntar preço, detalhes, disponibilidade e formas de entrega manualmente.
+
+O **EntreLaços** resolve isso criando uma vitrine onde o cliente consegue:
+
+* 💝 visualizar os produtos em cards organizados;
+* 🏷️ comparar preços promocionais;
+* 🔎 abrir detalhes de cada kit;
+* 🖼️ ampliar a imagem do produto;
+* 🧭 filtrar por categoria;
+* 📲 iniciar o pedido pelo WhatsApp com mensagem pronta.
+
+Com isso, o vendedor passa uma imagem mais profissional e o cliente tem uma experiência mais clara, bonita e rápida.
+
+---
+
+## 🖼️ Preview visual
+
+<div align="center">
+
+| Vitrine digital                     | Atendimento direto                 |
+| ----------------------------------- | ---------------------------------- |
+| 💝 Cards com imagens, preços e tags | 📲 Pedido automático pelo WhatsApp |
+| 🏷️ Filtros por categoria           | 🔎 Modal com detalhes do produto   |
+| ✨ Visual romântico e responsivo     | 💬 Mensagem pronta para o vendedor |
+
+</div>
+
+---
+
+## 🎯 Objetivo
+
+Criar uma página estática, leve e elegante para divulgação de kits presenteáveis, com foco em:
+
+* estética visual;
+* navegação simples;
+* carregamento rápido;
+* responsividade;
+* organização dos produtos;
+* integração direta com WhatsApp;
+* publicação gratuita na Vercel.
+
+---
+
+## 🚀 Funcionalidades
+
+* 💝 Vitrine digital com produtos carregados via `products.json`;
+* 🧭 filtros por categoria:
+
+  * **Todos**;
+  * **Para ela**;
+  * **Para ele**;
+  * **Até R$ 100**;
+  * **Premium**;
+* 🏷️ cards com nome, linha, tags e preço;
+* 💸 preço promocional no formato **De/Por**;
+* 📉 cálculo automático de desconto quando existe `oldPrice`;
+* 🔎 modal com maiores informações do produto;
+* 🖼️ botão para ampliar a imagem do kit;
+* 📲 botão de pedido via WhatsApp;
+* 💬 mensagem automática personalizada por produto;
+* ✨ animações de corações e símbolos ao mover/clicar;
+* 🌊 efeito ripple nos botões;
+* 🧊 efeito 3D nos cards com fallback;
+* 📱 layout responsivo para celular, tablet e desktop;
+* ⚠️ aviso de vitrine independente no rodapé.
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+<div align="center">
+
+![HTML5](https://img.shields.io/badge/HTML5-estrutura-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-layout%20%26%20anima%C3%A7%C3%B5es-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-interatividade-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=111)
+![JSON](https://img.shields.io/badge/JSON-produtos-6E1846?style=for-the-badge)
+![Vercel](https://img.shields.io/badge/Vercel-deploy-000000?style=for-the-badge\&logo=vercel\&logoColor=white)
+
+</div>
+
+### Stack principal
+
+| Tecnologia          | Uso no projeto                                       |
+| ------------------- | ---------------------------------------------------- |
+| **HTML5**           | Estrutura da página                                  |
+| **CSS3**            | Layout, responsividade, cores, animações e visual    |
+| **JavaScript puro** | Filtros, modal, renderização dos produtos e WhatsApp |
+| **JSON**            | Cadastro dos produtos                                |
+| **Vercel**          | Deploy e hospedagem                                  |
+| **Google Fonts**    | Tipografia do projeto                                |
+| **VanillaTilt.js**  | Efeito 3D nos cards                                  |
+
+---
+
+## 🎨 Identidade visual
+
+A identidade do projeto foi pensada para transmitir uma sensação de presente, carinho e sofisticação.
+
+| Elemento          | Estilo                     |
+| ----------------- | -------------------------- |
+| 💜 Roxo/neon      | destaque visual e botões   |
+| 🌹 Vinho/rosa     | clima romântico e elegante |
+| 🤍 Fundo claro    | leitura confortável        |
+| ✨ Animações sutis | experiência mais viva      |
+| 🖼️ Cards grandes | foco nos produtos          |
+
+---
+
+## 📁 Estrutura do projeto
 
 ```text
-entrelacos-release-final/
+entrelacos-vitrine/
 ├── index.html
 ├── styles.css
 ├── script.js
 ├── products.json
-├── _headers
-├── _redirects
 ├── vercel.json
 ├── robots.txt
+├── _headers
+├── _redirects
 └── assets/
     ├── icons/
+    │   └── favicon.svg
     └── images/
+        ├── cover.webp
+        ├── og-cover.webp
+        └── imagens-dos-produtos.webp
 ```
 
-## Como editar produtos
+---
 
-Edite o arquivo `products.json`.
+## 🧩 Como editar os produtos
 
-Campos principais:
+Os produtos ficam cadastrados no arquivo:
+
+```text
+products.json
+```
+
+Exemplo:
 
 ```json
 {
-  "name": "Nome do produto",
-  "line": "Linha ou descrição curta",
+  "id": "kit-para-seu-amor",
+  "name": "Kit Para Seu Amor",
+  "line": "Tododia Ameixa e Flor de Baunilha",
   "price": 134.90,
   "oldPrice": 149.90,
-  "image": "assets/images/imagem.webp",
+  "image": "assets/images/kit-para-seu-amor.webp",
+  "badge": "Romântico",
   "categories": ["todos", "ela"],
-  "tags": ["Doce", "Delicado"]
+  "tags": ["Doce", "Delicado"],
+  "details": [
+    ["Fixação", "até 6h na pele"],
+    ["Acorde", "frutal adocicado com fundo amadeirado cremoso"],
+    ["Combinação do kit", "creme nutritivo para o corpo + body splash"],
+    ["Indicação", "para quem gosta de presente delicado, cheiroso e romântico"]
+  ]
 }
 ```
 
-## Como editar o WhatsApp
+---
+
+## 📲 Como alterar o WhatsApp
 
 No arquivo `script.js`, altere:
 
 ```js
-const WHATSAPP_NUMBER = "5511964661995";
-const SELLER_NAME = "Rómulo";
+const WHATSAPP_NUMBER = "55XXXXXXXXXXX";
+const SELLER_NAME = "Nome do vendedor";
 ```
 
-Use DDI + DDD + número, sem espaços e sem traços.
+Use o formato:
 
-## Como executar localmente
+```text
+DDI + DDD + número
+```
 
-### Opção 1 — VS Code
+Sem espaços, traços ou parênteses.
+
+---
+
+## ▶️ Como executar localmente
+
+### Opção 1 — VS Code com Live Server
 
 1. Abra a pasta do projeto no VS Code.
 2. Instale a extensão **Live Server**.
-3. Clique em **Go Live**.
+3. Clique com o botão direito no `index.html`.
+4. Selecione **Open with Live Server**.
+
+O projeto será aberto em algo parecido com:
+
+```text
+http://127.0.0.1:5500
+```
 
 ### Opção 2 — Python
 
-No terminal dentro da pasta:
+Dentro da pasta do projeto, execute:
 
-```bash
-python -m http.server 5500
-```
-
-Acesse:
-
-```text
-http://localhost:5500
-```
-
-> Evite abrir o `index.html` direto com duplo clique, porque o navegador pode bloquear o carregamento do `products.json`.
-
-## Segurança e deploy
-
-O projeto inclui:
-
-- `_headers` para Netlify;
-- `vercel.json` para Vercel;
-- `Content-Security-Policy`;
-- `X-Content-Type-Options`;
-- `Referrer-Policy`;
-- `Permissions-Policy`;
-- proteção contra embed externo.
-
-## Observação comercial
-
-Os preços antigos em `oldPrice` devem ser confirmados antes da publicação. Se não houver preço anterior real, use somente preço especial ou remova o campo no layout.
-
-## Aviso de independência
-
-Esta vitrine é independente. Marcas e produtos pertencem aos seus respectivos fabricantes. Disponibilidade, entrega e montagem dos kits são confirmadas via WhatsApp.
-
-## Melhorias futuras
-
-- Trocar estoque manual por status: disponível, reservado ou vendido.
-- Criar painel admin simples.
-- Adicionar analytics privacy-friendly, como Umami ou Plausible.
-- Criar versão de preview exclusiva para WhatsApp.
-
-
-## Ajustes de polimento mobile
-
-- Menu hamburguer no mobile.
-- Filtros mantidos e com rolagem horizontal mais suave.
-- Produtos carregados via `products.json`.
-- `srcset` e versões `-sm.webp` para melhorar carregamento em mobile.
-- Badge de desconto calculado automaticamente quando houver `oldPrice`.
-- Skeleton loading enquanto o catálogo carrega.
-- Botão principal do card abre detalhes antes do pedido.
-- Modal com scroll interno em telas pequenas.
-- Trail de corações desativado em mousemove no touch/mobile para melhorar performance.
-- OG image com URL absoluta para melhorar preview no WhatsApp.
-
-
-## Ajuste de hero
-
-- Hero inicial alterado para layout lateral.
-- Texto e chamada principal ficam à esquerda.
-- Imagem/capa fica à direita no desktop.
-- No mobile, o bloco empilha com texto acima e imagem abaixo, mantendo proporção padronizada.
-
-
-## Refino do topo
-
-- Hero reorganizado com mais harmonia visual.
-- Bloco de texto com card suave à esquerda.
-- Imagem à direita com proporção melhor controlada.
-- Menu principal do desktop convertido em mini menu.
-- Intro principal agora não depende de animação/reveal para aparecer.
-
-
-## Refação estrutural da landing page
-
-Nesta revisão, a estrutura da página inicial foi reorganizada, mantendo a vitrine digital com os produtos já cadastrados.
-
-### Alterações principais
-- hero refeito com **texto primeiro** e **banner horizontal logo abaixo**;
-- navbar com **mini menu central**, glow/neon leve e botão de WhatsApp separado;
-- fundo com **efeito luminária** e transição suave de cores;
-- elementos decorativos com aparência 3D em pontos estratégicos;
-- cards informativos reestruturados;
-- footer simplificado, sem repetir a logo;
-- modal de produto com botão **"Ampliar imagem"** para ver a foto maior.
-
-### Como executar localmente
-Como é um projeto estático, basta abrir com um servidor local.
-
-Exemplo com Python:
 ```bash
 python -m http.server 8000
 ```
 
-Depois, abra:
+Depois acesse:
+
 ```text
 http://localhost:8000
 ```
 
-Ou use a extensão **Live Server** no VS Code.
+> Evite abrir o `index.html` direto com duplo clique, porque o navegador pode bloquear o carregamento do `products.json`.
 
+---
 
-## Atualização do topo
-- removida a imagem do começo do site;
-- adicionado bloco principal escuro com efeito luminária e troca suave de cores;
-- navbar refinada com mini menu central e glow/neon;
-- modal com botão de ampliar imagem mantido;
-- vitrine digital e cards preservados com as imagens dos produtos.
+## 🌐 Deploy
 
+O projeto foi publicado na **Vercel**.
 
-## Ajuste rápido solicitado
-- removidos os elementos decorativos fixos do fundo da página;
-- mantidas apenas as animações interativas do mouse/clique;
-- vitrine digital redimensionada para cards mais alinhados;
-- imagens dos produtos melhor enquadradas dentro dos cards.
+🔗 **Site publicado:**
+https://entrelacos-vitrine.vercel.app
+
+Para atualizar o site:
+
+```bash
+git add .
+git commit -m "atualiza vitrine"
+git push
+```
+
+A Vercel detecta o novo commit e realiza o deploy automaticamente.
+
+---
+
+## 🔐 Configurações e boas práticas
+
+O projeto inclui arquivos de apoio para publicação e segurança:
+
+* `vercel.json`;
+* `_headers`;
+* `_redirects`;
+* `robots.txt`;
+* `Content-Security-Policy`;
+* `X-Content-Type-Options`;
+* `Referrer-Policy`;
+* `Permissions-Policy`.
+
+---
+
+## ⚠️ Aviso comercial
+
+Esta é uma vitrine independente criada para fins de divulgação e atendimento direto.
+
+Marcas, linhas e produtos pertencem aos seus respectivos fabricantes. Disponibilidade, entrega, retirada, montagem dos kits e preços devem ser confirmados diretamente pelo WhatsApp.
+
+---
+
+## 🔮 Melhorias futuras
+
+* 🟢 status de produto: disponível, reservado ou vendido;
+* 🧑‍💻 painel administrativo simples;
+* 🔍 busca por nome do produto;
+* 💬 seção de depoimentos;
+* 📊 analytics privacy-friendly;
+* 📲 preview personalizado para WhatsApp;
+* 📦 controle simples de estoque.
+
+---
+
+## 👨‍💻 Autor
+
+<div align="center">
+
+Desenvolvido por **Max Godoy**
+como uma solução prática para apoiar a divulgação de produtos de um colega de classe.
+
+<br>
+
+![Feito com HTML](https://img.shields.io/badge/feito%20com-HTML%20%2B%20CSS%20%2B%20JS-8A2BE2?style=for-the-badge)
+![Projeto com propósito](https://img.shields.io/badge/projeto-com%20prop%C3%B3sito-C23B87?style=for-the-badge)
+![EntreLaços](https://img.shields.io/badge/EntreLa%C3%A7os-vitrine%20digital-FF8FBD?style=for-the-badge)
+
+</div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=140&section=footer&color=0:180617,35:4A0D2E,65:8A2BE2,100:FF8FBD" />
