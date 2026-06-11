@@ -1,0 +1,241 @@
+[
+  {
+    "id": "kit-para-seu-amor",
+    "name": "Kit Para Seu Amor",
+    "line": "Tododia Ameixa e Flor de Baunilha",
+    "price": 134.9,
+    "oldPrice": 149.9,
+    "image": "assets/images/kit-para-seu-amor.webp",
+    "imageWidth": 1122,
+    "imageHeight": 1402,
+    "badge": "Romântico",
+    "categories": [
+      "todos",
+      "ela"
+    ],
+    "tags": [
+      "Doce",
+      "Delicado"
+    ],
+    "details": [
+      [
+        "Fixação",
+        "até 6h na pele"
+      ],
+      [
+        "Acorde",
+        "frutal adocicado com fundo amadeirado cremoso"
+      ],
+      [
+        "Combinação do kit",
+        "creme nutritivo para o corpo + body splash"
+      ],
+      [
+        "Indicação",
+        "para quem gosta de presente delicado, cheiroso e romântico"
+      ]
+    ]
+  },
+  {
+    "id": "mimo-romantico",
+    "name": "Mimo Romântico",
+    "line": "Linha Tododia",
+    "price": 69.9,
+    "oldPrice": 84.9,
+    "image": "assets/images/mimo-romantico.webp",
+    "imageWidth": 1122,
+    "imageHeight": 1402,
+    "badge": "Acessível",
+    "categories": [
+      "todos",
+      "ela",
+      "ate100"
+    ],
+    "tags": [
+      "Até R$ 100",
+      "Mimo"
+    ],
+    "details": [
+      [
+        "Fixação",
+        "4 a 6h"
+      ],
+      [
+        "Acorde",
+        "adocicado suave"
+      ],
+      [
+        "Combinação do kit",
+        "hidratante Tododia + embalagem especial"
+      ],
+      [
+        "Indicação",
+        "para uma lembrança bonita, prática e carinhosa"
+      ]
+    ]
+  },
+  {
+    "id": "carinho-em-presente",
+    "name": "Carinho em Presente",
+    "line": "Linha Tododia",
+    "price": 76.9,
+    "oldPrice": 89.9,
+    "image": "assets/images/carinho-em-presente.webp",
+    "imageWidth": 1122,
+    "imageHeight": 1402,
+    "badge": "Queridinho",
+    "categories": [
+      "todos",
+      "ela",
+      "ate100"
+    ],
+    "tags": [
+      "Leve",
+      "Versátil"
+    ],
+    "details": [
+      [
+        "Fixação",
+        "4 a 6h"
+      ],
+      [
+        "Acorde",
+        "suave e confortável"
+      ],
+      [
+        "Combinação do kit",
+        "body splash Tododia + mimo de banho + embalagem especial"
+      ],
+      [
+        "Indicação",
+        "para quem quer um presente leve, cheiroso e com boa apresentação"
+      ]
+    ]
+  },
+  {
+    "id": "essencial-classico",
+    "name": "Essencial Clássico",
+    "line": "Deo Parfum Masculino",
+    "price": 225.9,
+    "oldPrice": 249.9,
+    "image": "assets/images/essencial-classico.webp",
+    "imageWidth": 1122,
+    "imageHeight": 1402,
+    "badge": "Elegante",
+    "categories": [
+      "todos",
+      "ele",
+      "premium"
+    ],
+    "tags": [
+      "Amadeirado",
+      "Sofisticado"
+    ],
+    "details": [
+      [
+        "Fixação",
+        "aprox. 10h"
+      ],
+      [
+        "Acorde",
+        "amadeirado aromático"
+      ],
+      [
+        "Notas",
+        "bergamota, lavanda, patchouli e madeiras nobres"
+      ],
+      [
+        "Combinação do kit",
+        "deo parfum 100 ml + embalagem presenteável"
+      ],
+      [
+        "Indicação",
+        "para quem gosta de fragrância elegante, masculina e marcante"
+      ]
+    ]
+  },
+  {
+    "id": "essencial-safran",
+    "name": "Essencial Safran",
+    "line": "Luxo e intensidade",
+    "price": 222.9,
+    "oldPrice": 239.9,
+    "image": "assets/images/essencial-safran.webp",
+    "imageWidth": 1122,
+    "imageHeight": 1402,
+    "badge": "Premium",
+    "categories": [
+      "todos",
+      "ela",
+      "premium"
+    ],
+    "tags": [
+      "Até 14h",
+      "Marcante"
+    ],
+    "details": [
+      [
+        "Fixação",
+        "até 14h"
+      ],
+      [
+        "Acorde",
+        "amadeirado especiado"
+      ],
+      [
+        "Notas",
+        "açafrão, paramela e madeiras nobres"
+      ],
+      [
+        "Combinação do kit",
+        "deo parfum + embalagem especial"
+      ],
+      [
+        "Indicação",
+        "para quem quer impressionar com um presente mais sofisticado"
+      ]
+    ]
+  },
+  {
+    "id": "essencial-atrai",
+    "name": "Essencial Atrai",
+    "line": "Fragrância marcante",
+    "price": 234.9,
+    "oldPrice": 259.9,
+    "image": "assets/images/essencial-atrai.webp",
+    "imageWidth": 1122,
+    "imageHeight": 1402,
+    "badge": "Destaque",
+    "categories": [
+      "todos",
+      "ele",
+      "premium"
+    ],
+    "tags": [
+      "Intenso",
+      "Amadeirado"
+    ],
+    "details": [
+      [
+        "Fixação",
+        "aprox. 10h"
+      ],
+      [
+        "Acorde",
+        "amadeirado especiado"
+      ],
+      [
+        "Notas",
+        "pimenta rosa e madeiras nobres"
+      ],
+      [
+        "Combinação do kit",
+        "dupla Essencial Atrai em embalagem especial"
+      ],
+      [
+        "Indicação",
+        "para quem prefere presença, intensidade e visual premium"
+      ]
+    ]
+  }
+]

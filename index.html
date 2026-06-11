@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#fff4f7" />
+  <meta name="robots" content="index, follow" />
+  <title>EntreLaços | Vitrine Digital de Presentes</title>
+  <meta name="description" content="Vitrine digital de presentes para o Dia dos Namorados. Escolha o kit, veja detalhes e consulte disponibilidade pelo WhatsApp." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="EntreLaços | Vitrine Digital de Presentes" />
+  <meta property="og:description" content="Kits especiais para presentear, com preço promocional e atendimento direto pelo WhatsApp." />
+  <meta property="og:image" content="https://entrelacos-vitrine.vercel.app/assets/images/og-cover.webp" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="EntreLaços | Vitrine Digital de Presentes" />
+  <meta name="twitter:description" content="Escolha o kit, veja os detalhes e consulte disponibilidade pelo WhatsApp." />
+  <meta name="twitter:image" content="https://entrelacos-vitrine.vercel.app/assets/images/og-cover.webp" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+  <link rel="preload" as="image" href="assets/images/cover.webp" fetchpriority="high" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-motion" aria-hidden="true">
+    <div class="page-gradient"></div>
+    <div class="blur-ball blur-one"></div>
+    <div class="blur-ball blur-two"></div>
+    <div class="blur-ball blur-three"></div>
+    <div class="blur-ball blur-four"></div>
+    <div class="soft-grid"></div>
+    <div class="ambient-shape ambient-heart">♥</div>
+    <div class="ambient-shape ambient-gift">🎁</div>
+    <div class="ambient-shape ambient-ring">✦</div>
+    <div class="ambient-shape ambient-rose">❦</div>
+    <div class="ambient-shape ambient-spark">✧</div>
+  </div>
+
+  <div class="click-bursts" id="clickBursts" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#inicio" aria-label="EntreLaços, voltar ao início">
+        <span class="brand-mark" aria-hidden="true">🎀</span>
+        <span class="brand-text">
+          <strong>Entre<span class="brand-bow">🎀</span>Laços</strong>
+          <small>vitrine digital</small>
+        </span>
+      </a>
+
+      <nav class="nav-desk-menu" aria-label="Menu principal">
+        <div class="nav-lamp">
+          <a href="#vitrine">Vitrine digital</a>
+          <a href="#duvidas">Dúvidas</a>
+        </div>
+      </nav>
+
+      <a class="btn btn-nav ripple-target" id="navWhatsapp" href="#contato">WhatsApp</a>
+
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="navDrawer">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <nav class="nav-drawer" id="navDrawer" aria-hidden="true">
+      <a href="#vitrine" class="drawer-link">Vitrine digital</a>
+      <a href="#duvidas" class="drawer-link">Dúvidas</a>
+      <a href="#contato" class="drawer-link btn-drawer">WhatsApp</a>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <section class="hero-stack container">
+      <article class="hero-spotlight glow-card reveal visible">
+        <div class="hero-lamp hero-lamp-one" aria-hidden="true"></div>
+        <div class="hero-lamp hero-lamp-two" aria-hidden="true"></div>
+        <div class="hero-lamp hero-lamp-three" aria-hidden="true"></div>
+        <div class="hero-symbol hero-symbol-heart" aria-hidden="true">♥</div>
+        <div class="hero-symbol hero-symbol-spark" aria-hidden="true">✦</div>
+        <div class="hero-copy hero-copy-centered">
+          <span class="eyebrow">Especial Dia dos Namorados</span>
+          <h1>Presentes prontos para emocionar.</h1>
+          <p>
+            Uma vitrine digital elegante e direta para escolher o kit ideal, comparar opções e falar com o vendedor em poucos cliques.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary hero-button ripple-target" href="#vitrine">Ver vitrine digital</a>
+            <a class="btn btn-ghost hero-secondary ripple-target" id="heroWhatsapp" href="#contato">Consultar kits</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="container benefits-intro" id="duvidas">
+      <article class="benefit-card reveal glow-card">
+        <div class="benefit-icon" aria-hidden="true">
+          <svg viewBox="0 0 64 64" role="img">
+            <rect x="14" y="25" width="36" height="27" rx="4"></rect>
+            <path d="M14 34h36"></path>
+            <path d="M32 25v27"></path>
+            <path d="M32 25c-8-7-15-10-18-5-3 6 6 8 18 5Z"></path>
+            <path d="M32 25c8-7 15-10 18-5 3 6-6 8-18 5Z"></path>
+          </svg>
+        </div>
+        <h2>Embalagem Especial</h2>
+        <p>Caixa presenteável com laço e visual pensado para impressionar.</p>
+      </article>
+
+      <article class="benefit-card reveal glow-card">
+        <div class="benefit-icon" aria-hidden="true">
+          <svg viewBox="0 0 64 64" role="img">
+            <path d="M13 45c8-14 16-14 25-8 7 5 11 1 14-8"></path>
+            <path d="M17 20c0 6-7 9-7 14s4 8 7 8 7-3 7-8-7-8-7-14Z"></path>
+            <circle cx="17" cy="33" r="2.5"></circle>
+            <path d="M39 20h9l6 7v14H39V20Z"></path>
+            <path d="M39 41H25"></path>
+            <circle cx="31" cy="45" r="4"></circle>
+            <circle cx="49" cy="45" r="4"></circle>
+          </svg>
+        </div>
+        <h2>Entrega até 12/06</h2>
+        <p>Entrega ou retirada a combinar diretamente pelo WhatsApp.</p>
+      </article>
+
+      <article class="benefit-card reveal glow-card">
+        <div class="benefit-icon" aria-hidden="true">
+          <svg viewBox="0 0 64 64" role="img">
+            <rect x="12" y="18" width="40" height="29" rx="4"></rect>
+            <path d="M15 23l17 13 17-13"></path>
+            <path d="M24 37c4-5 12-5 16 0"></path>
+            <path d="M32 32c-4-3-6-5-6-8 0-2 2-4 4-4 1 0 2 .4 2 1.2C32 20.4 33 20 34 20c2 0 4 2 4 4 0 3-2 5-6 8Z"></path>
+          </svg>
+        </div>
+        <h2>Cartão Personalizado</h2>
+        <p>Inclua uma mensagem especial para deixar o presente ainda mais único.</p>
+      </article>
+    </section>
+
+    <section class="catalog-section container" id="vitrine">
+      <div class="catalog-head reveal">
+        <span class="eyebrow">Vitrine digital</span>
+        <h2>Escolha o kit ideal</h2>
+        <p>Toque no card para ver detalhes, preço promocional e abrir o pedido.</p>
+      </div>
+
+      <div class="filters reveal" role="tablist" aria-label="Filtros da vitrine">
+        <button class="filter ripple-target is-active" type="button" data-filter="todos">Todos</button>
+        <button class="filter ripple-target" type="button" data-filter="ela">Para ela</button>
+        <button class="filter ripple-target" type="button" data-filter="ele">Para ele</button>
+        <button class="filter ripple-target" type="button" data-filter="ate100">Até R$ 100</button>
+        <button class="filter ripple-target" type="button" data-filter="premium">Premium</button>
+      </div>
+
+      <div class="product-grid" id="productGrid" aria-live="polite"></div>
+      <noscript><p class="noscript">Ative o JavaScript para visualizar a vitrine e abrir os pedidos pelo WhatsApp.</p></noscript>
+    </section>
+
+    <section class="container after-catalog-grid">
+      <article class="how-card reveal glow-card">
+        <span class="section-symbol">✦</span>
+        <h2>Como funciona</h2>
+        <div class="how-grid">
+          <p><strong>1.</strong> Escolha um kit na vitrine.</p>
+          <p><strong>2.</strong> Abra os detalhes e veja mais informações.</p>
+          <p><strong>3.</strong> Peça pelo WhatsApp e confirme disponibilidade.</p>
+        </div>
+      </article>
+
+      <article class="support-card reveal glow-card" id="contato">
+        <span class="section-symbol">❦</span>
+        <h2>Atendimento direto</h2>
+        <p>Se quiser tirar dúvidas sobre entrega, retirada ou disponibilidade, fale com o vendedor em um clique.</p>
+        <a class="btn btn-primary ripple-target" id="footerWhatsapp" href="#contato">Falar no WhatsApp</a>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner simple-footer">
+      <div class="footer-copy">
+        <p>© 2026 · Feito com ♥ para o Dia dos Namorados</p>
+        <small>Vitrine independente. Marcas e produtos pertencem aos respectivos fabricantes. Entrega e montagem dos kits são confirmadas via WhatsApp.</small>
+      </div>
+      <div class="footer-links">
+        <a href="#inicio">Início</a>
+        <a href="#vitrine">Vitrine</a>
+        <a href="#duvidas">Dúvidas</a>
+      </div>
+    </div>
+  </footer>
+
+  <dialog class="modal" id="productModal" aria-label="Detalhes do produto">
+    <div class="modal-panel">
+      <button class="modal-close" id="modalClose" type="button" aria-label="Fechar">×</button>
+      <div class="modal-layout">
+        <figure class="modal-poster">
+          <img id="modalImage" src="" alt="" />
+          <button class="zoom-image-btn ripple-target" id="zoomImageBtn" type="button">Ampliar imagem</button>
+        </figure>
+        <div class="modal-info">
+          <span class="eyebrow">Maiores informações</span>
+          <h2 id="modalTitle"></h2>
+          <p class="modal-subtitle" id="modalSubtitle"></p>
+          <div class="modal-prices">
+            <span class="old-price" id="modalOldPrice"></span>
+            <strong class="modal-price" id="modalPrice"></strong>
+          </div>
+          <div class="modal-details" id="modalDetails"></div>
+          <a class="btn btn-primary btn-block ripple-target" id="modalWhatsapp" href="#">Pedir este kit</a>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog class="image-lightbox" id="imageLightbox" aria-label="Imagem ampliada do produto">
+    <div class="lightbox-panel">
+      <button class="modal-close lightbox-close" id="lightboxClose" type="button" aria-label="Fechar imagem">×</button>
+      <img id="lightboxImage" src="" alt="" />
+    </div>
+  </dialog>
+
+  <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.8.1/dist/vanilla-tilt.min.js" defer></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
